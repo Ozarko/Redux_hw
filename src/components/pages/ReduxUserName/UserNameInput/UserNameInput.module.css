@@ -1,0 +1,17 @@
+.UserNameInput {
+  width: 300px;
+  padding: 10px 0;
+  font-size: 16px;
+  color: #fff;
+  margin-bottom: 10px;
+  border: none;
+  border-bottom: 1px solid #fff;
+  outline: none;
+  background: transparent;
+}
+
+.UserNameInput:focus,
+.UserNameInput:active {
+  border-bottom: 1px solid #00FFFF;
+}
+

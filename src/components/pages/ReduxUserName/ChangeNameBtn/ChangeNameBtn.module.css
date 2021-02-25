@@ -1,0 +1,30 @@
+.ChangeNameBtn {
+  width: 100px;
+  margin-top: 20px;
+  align-self: center;
+  display: inline-block;
+  background: transparent;
+  border: none;
+  padding: 5px 10px;
+  border: 0.5px solid #03e8f43a;
+  color: #03e9f4;
+  font-size: 13px;
+  text-decoration: none;
+  text-transform: uppercase;
+  overflow: hidden;
+  letter-spacing: 4px;
+  transition: all 0.25s ease;
+  cursor: pointer;
+}
+
+.ChangeNameBtn:focus,
+.ChangeNameBtn:active {
+  outline: none;
+}
+
+.ChangeNameBtn:hover {
+  transform: translateY(-5px);
+  color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 0 20px #03e9f4
+}

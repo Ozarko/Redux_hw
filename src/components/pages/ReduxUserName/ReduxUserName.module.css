@@ -1,0 +1,35 @@
+.ReduxUserName {
+  width: 100vw;
+  height: 100vh;
+  background: #202B33;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.UserNameBox {
+  max-width: 700px;
+  width: 700px;
+  height: 600px;
+  padding: 50px;
+  border: 1px solid #fff;
+  border-radius: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  border-color: #00FFFF;
+  color: #fff1e6;
+  box-shadow: 0 0.5em 0.5em -0.4em #00FFFF;
+  transform: translateY(-0.25em);
+}
+
+.UserNameBox h2 {
+  margin-bottom: 20px;
+}
+
+.BtnBox {
+  width: 300px;
+  display: flex;
+  justify-content: space-between;
+}
